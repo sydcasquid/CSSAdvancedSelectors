@@ -1,0 +1,83 @@
+/* Unordered List - 3rd and 4th items text color red */
+div > div:nth-child(1) > ul > li:nth-child(3) {
+    color: red;
+}
+
+div > div:nth-child(1) > ul > li:nth-child(4) {
+    color: red;
+}
+
+/*Ordered list - 2nd and 4th items text size of 24px */
+div > div:nth-child(2) > ol > li:nth-child(2) {
+    font-size:24px;
+}
+
+div > div:nth-child(2) > ol > li:nth-child(4) {
+    font-size:24px;
+}
+
+/* 3 divs with height of 100px, width of 100px, and red background*/
+/* Second div all text is white*/
+/* The first p tag in each div should be italicized */
+
+/* Height, width and background color */
+div > div:nth-child(3) {
+    height: 100px;
+    width: 100px; 
+    background-color: red;
+}
+
+div > div:nth-child(4) {
+    height: 100px;
+    width: 100px; 
+    background-color: red;
+}
+
+div > div:nth-child(5) {
+    height: 100px;
+    width: 100px; 
+    background-color: red;
+}
+
+/* Text */
+div > div:nth-child(3) > p:first-child {
+    font-style: italic;
+}
+
+div > div:nth-child(4) > p:first-child {
+    font-style: italic;
+}
+
+div > div:nth-child(5) > p:first-child {
+    font-style: italic;
+}
+
+div > div:nth-child(4) > p:nth-child(2) {
+    color:white;
+}
+
+div > div:nth-child(4) > p:nth-child(3) {
+    color:white;
+}
+
+/* Button: */
+/*Color changes to blue when hovering */
+/*when clicked border turns into sharp edges and grows to 200px by 150px */
+
+button {
+    border-radius: 12px; 
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+button:active {
+    border-radius: 0; /* Sharp corners */
+    width: 200px;
+    height: 150px;
+}
+
+
